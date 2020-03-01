@@ -1,0 +1,40 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "kind kebab cat",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "nevermind"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetRemoteDataIntent",
+          "slots": [],
+          "samples": [
+            "ask kind kebab cat if there are any classrooms with extra food",
+            "ask kind kebab cat if there is any leftovers",
+            "ask kind kebab cat if there\u0027s any leftovers",
+            "are there any leftovers at u. c. merced",
+            "ask kind kebab cat if there\u0027s any leftovers at u. c. merced"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "15"
+}
